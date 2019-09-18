@@ -1,0 +1,51 @@
+**Roadmap**
+-----------------------------------------
+
+2.0 - 4/2019
+#######################################
+
+- Live Report
+- Data warehouse
+
+1.4 - 3/2019
+#######################################
+
+- eInvoice
+
+1.3 - 12/2018
+#######################################
+
+- Class List
+- Class Schedule
+- Teacher List
+- Teacher Hours
+- Teacher Config
+- Non Teacher Hours
+- Monthly Revenue
+
+1.2 - 6/2018
+#######################################
+
+- Lead Detail
+- Follow Up
+- Sale Performance
+- Lead Activity
+
+1.1 - 2/2018
+#######################################
+
+- Import Lead
+- Warehouse
+- Campaign List
+- Coupon Calling
+- Coupon Assigning
+
+
+
+1.0 - 12/2017
+#######################################
+
+- Teacher Dashboard
+- Reporting 
+
+

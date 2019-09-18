@@ -1,0 +1,80 @@
+**Glossary**
+*****************************
+
+**Users, Groups, Permissions**
+##########################################################
+
+.. glossary::
+
+    CMS User Group
+        Group with particular functions set for particular role in the organization
+
+**Customer Life Cycle**
+##########################################################
+
+.. glossary::
+
+    STAGE
+        define a customer journey from market to a school customer, incuding: DATA, COUPON, APPOINTMENT, VISIT, CONTRACT, STUDENT
+    
+    DATA
+        Leads which are newly imported to CSF Application in Marketing Module
+    
+    COUPON
+        Leads which are assigned to Telemarketing / Admission to start connecting to customers
+
+    APPOINTMENT
+        Leads which are connected by Telemarketing / Admission and booked appointments to school
+
+    VISIT
+        Leads which already came to visit school
+    
+    CONTRACT
+        Leads which are converted to Contract to proceed payment
+    
+    STUDENT
+        Leads which became school customers and complete payment to study at school
+
+    STATUS
+        define the current status of a customer during each stage from market to a school customer, including: Active, Created, Started, Callback, Not Answer, Useless, Meeting, Not Come, Come, Contracted
+    
+    Active
+        DATA which is ready to assign to Telemarketing / Admission to call
+    
+    Created
+        COUPON which is newly assigned by Marketing to Telemarketing / Admission
+    
+    Started
+        COUPON which is newly assigned by head of Telemarketing / Admission to subordinates to start calling
+    
+    Callback
+        LEAD which is contacted and set to call back at a later time
+    
+    Not Answer
+        LEAD which is called but not answering
+
+    Useless
+        LEAD which is called but appear to be wrong number, wrong location, or wrong age target
+    
+    Meeting
+        APPOINTMENT when LEAD is booked a meeting a school
+
+    Not Come
+        APPOINTMENT when LEAD does not show up at school
+    
+    Come
+        VISIT when APPOINTMENT shows up at school
+    
+    Contracted
+        CONTRACT when VISIT agrees to sign contract to use product/service at school
+
+**Terms used in Application**
+##########################################################
+
+.. glossary::
+    
+    AO
+        Account Owner is the person who own the account/lead *(If you are viewing details of lead history, AO is the person who performs the action on the account/lead)*
+
+    Follow
+        Follow is the person who continue to take care of the accounts/leads once they visited the school (Follow & AO might be one person or different persons)

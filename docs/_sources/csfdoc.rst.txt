@@ -1,0 +1,1612 @@
+**CSF Documentation**
+-----------------------------------------
+
+**Getting Started**
+***************************************
+
+Head Start for Administrators
+#######################################
+
+1. **Create User Groups with a Specific Roles Set**
+#######################################
+
+Step 1: Log in `CMS Application <http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Step 2: Access **System > User Group** on the Menubar
+
+Step 3: Click **Add Group**
+
+Step 4: In the **Create New User Group** window:
+
+    * Type in: **Group Name, Description**
+    
+    * Tick **Is Group Sales** if the Group is Sales
+    
+    * Select **All Module**
+    
+    * Tick **the boxes** to apply roles to the Group
+    
+Step 5: Click **Save**
+
+.. seealso: `See Roles Explanation here`_
+
+2. **Create Users**
+#######################################
+
+Step 1: Log in `CMS Application <http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Step 2: Access **System > User Info** on the Menubar
+
+Step 3: Click **Add User**
+
+Step 4: In the **Create New User** window:
+
+    * Type in: **Username, Password, Confirm Password, Full name, Email, Phone Number**
+    
+    * Select **Date Hire**, Status **Active**
+    
+    * Select **Center** (depend on which Center the User works in from HR Announcement)
+    
+    * Select **User Group** (depend on User Functional Group in the Organization)
+    
+Step 5: Click **Save**
+
+3. **Edit User Profile**
+#######################################
+
+Step 1: Log in `CMS Application <http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Step 2: Access **System > User Info** on the Menubar
+
+Step 3: Click **Edit icon** on the User you want to edit
+
+Step 4: Update fields you want to edit and click **Save**
+
+4. **Set User Roles**
+#######################################
+
+Step 1: Log in `CMS Application <http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Step 2: Access **System > User Info** on the Menubar
+
+Step 3: Click **Edit icon** on the User you want to update roles
+
+Step 4: Click **Update from Group**
+
+.. tip:: It is best to always apply roles in a group for all users of the group by using **Update from Group** function or **Update for All Users** function.
+
+    In case there are some users required to work with different roles to the rest in the group, just tick the roles boxes and click **Save**.
+
+5. **Deactivate Users**
+#######################################
+
+Step 1: Log in `CMS Application <http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Step 2: Access **System > User Info** on the Menubar
+
+Step 3: Click **Edit icon** on the User you want to deactivate
+
+Step 4: Select Status **Inactive**
+
+Step 5: Click **Save**
+
+Head Start for End Users
+#######################################
+
+1. Customer Life Cycle
+    
+.. image:: _static/images/customer-lifecycle.png
+    :width: 400pt
+
+.. seealso:: `Customer Life Cycle Glossary <./glossary.html#customer-life-cycle>`_
+
+.. note:: According to Customer Lift Cycle and specialized functionality of each Functional Group, each Module is designed and made usable for each Group.
+
+    Current Groups:
+        
+    * **Marketing Department**: manage and take action on LEAD in Marketing Module
+        
+    * **Telemarketing Department**: manage and take action on COUPON and APPOINTMENT [Not Come] in Telermarketing Module
+        
+    * **Admission Department**: manage and take action on COUPON and APPOINTMENT [Not Come] in Telemarketing Module **AND** VISIT and CONTRACT in Admission Module
+    
+    * **Academic Department**: manage and take action on CLASS in Classes Module **AND** Teachers in Teachers Module
+    
+        
+Managers
+#######################################
+
+
+
+
+
+**CSF Portal**
+***************************************
+
+Introduction
+#######################################
+
+CSF Portal is a specially designed gateway that help users quickly access CSF Application, CMS Application, Live Report System, User Guide, etc. to perform daily tasks and operation in the organization.
+
+* CSF Portal Domain: `<http://csf-beta.citysmart.vn/>`_
+
+* CSF Application Domain (Sale): `<http://csf.citysmart.vn/>`_
+
+* CSF Application Domain (Academic): `<http://csf-beta.citysmart.vn/>`_
+
+* CMS Application Domain: `<http://cms.citysmart.vn/screen/Login.aspx>`_
+
+Login
+#######################################
+
+What you see:
+
+.. image:: _static/images/login.png
+    :width: 400pt
+
+What you do:
+
+Step 1:
+
+.. image:: _static/images/userid.png
+    :width: 400pt
+ 
+input your user ID *(example: admin_csv)*
+
+Step 2:
+
+.. image:: _static/images/userpw.png
+    :width: 400pt
+
+input your password *(may include text, number, special characters, example: admin@123456)*
+
+Step 3:
+
+.. image:: _static/images/officerlogin.png
+    :width: 400pt
+
+Select this option to login if you are an officer 
+
+.. note:: *if your account is a teacher account, you cannot login by selecting this option*
+
+OR
+
+.. image:: _static/images/teacherlogin.png
+    :width: 400pt
+
+Select this option to login if you are a teacher 
+
+.. note:: *if your account is an officer account, you cannot login by selecting this option*.
+
+
+Homepage
+#####################################
+
+What you see:
+
+.. image:: _static/images/portal.png
+    :width: 400pt
+
+What you do:
+
+Select the block in correspondence with the application of your need, including:
+
+1. CSF Block: Select this block |csfblock| if you want to access `CSF Application <http://csf.citysmart.vn/>`_
+
+.. |csfblock| image:: _static/images/csfblock.png
+    :width: 40pt
+
+2. CMS Block: Select this block |cmsblock| if you want to access `CMS Application <http://cms.citysmart.vn/>`_
+
+.. |cmsblock| image:: _static/images/cmsblock.png
+    :width: 40pt
+
+3. Live Report Block: Select this block |livereport| if you want to access `Live Report <http://csf-beta.citysmart.vn/>`_
+
+.. |livereport| image:: _static/images/livereportblock.png
+    :width: 40pt 
+
+4. User Guide Block: Select this block |userguide| if you want to access `User Guide <http://221.132.28.138>`_
+
+.. |userguide| image:: _static/images/userguideblock.png
+    :width: 40pt 
+
+
+**CSF Application**
+***************************************
+
+**About CSF**
+#######################################
+
+CSF – CITYSMART FIRST is a computing service application internally designed by CITYSMART VIETNAM to help you manage your customer relationships, manage school system, and integrate with other systems, including
+
+1. Marketing: help you manage leads
+2. Telemarketing: help you market and connect with customers
+3. Admission: help you sell, service, and analyse your customers
+4. Students: help you manage your students
+5. Classes: help you manage your classes
+6. Teachers: help you manage your teachers
+7. eInvoice: help you manage eInvoice
+8. Reports: help you with daily operation with detailed reports
+9. System: help you configure system to meet business needs
+
+**Basics**
+############################
+
+**Menu Bar**
+
+Depend on your roles and responsibilities in your organization, you will see the menu bar, functions, and contents differently, for example:
+
+* if your role is to perform tasks related to Marketing Functions, you will see:
+
+.. image:: _static/images/marketingmenu.png
+    :width: 400pt 
+
+* if your role is to perform tasks related to Telemarketing Functions, you will see:
+
+.. image:: _static/images/telemarketingmenu.png
+    :width: 400pt 
+
+* if your role is to perform tasks related Admission Functions, your will see:
+
+.. image:: _static/images/admissionmenu.png
+    :width: 400pt
+
+and so on ...
+
+**General Search**
+
+Where to find: 
+
+.. image:: _static/images/generealsearcharea.png
+    :width: 400pt
+    
+When you search by:
+
+* Name: Student Name *(at least 4 Characters)*
+
+* Phone: Contact Phone Number *(at least 4 Characters)*
+
+for example: type in general search box "Hoàng Phương Anh"
+
+you will see
+
+.. image:: _static/images/searchresult.png
+    :width: 400pt
+
+.. note:: * If the result is **blank**, try searching by **Phone** or another **Name** (with/without accents). If the result is still **blank**, the information does not exist in the system. You can `Create New Lead <./csfdoc.html#create-a-new-lead>`_.
+
+    * If the result return two types **Lead** and **Student**, click on the **Name of Student** to continue your work:
+    
+        * Sale: select type **Lead**
+        
+        .. image:: _static/images/leaddetail.png
+            :width: 400pt
+        
+        * Customer Service: select type **Student**
+
+        .. image:: _static/images/studentdetail.png
+            :width: 400pt
+
+**Grid Search**
+
+When you access any Module, on the Function Bar
+
+.. image:: _static/images/functionbar.png
+    :width: 400pt
+
+you will see **Grid Search** |gridsearch|
+
+.. |gridsearch| image:: _static/images/gridsearch.png
+    :width: 150pt
+
+.. tip:: You can type in values you want to search after or before you filter **Source**, **Time**, and click **Search** |search|. The grid will show the results that match your filters and search values.
+
+    .. image:: _static/images/gridsearchresult.png
+        :width: 400pt
+
+**Grid View**  
+
+**Grid Manipulation** 
+
+**Marketing**
+#############################
+
+1. **Create a Marketing Campaign**
+###########################################################################
+
+Step 1: Access **Marketing > Campaign** List on Menubar
+
+.. image:: _static/images/campaignlist.png
+    :width: 400pt 
+
+Step 2: Click **New**
+
+.. image:: _static/images/newcampaign.png
+    :width: 400pt 
+    
+.. note:: If you created the campaign already, click **Edit** |edit| on the function bar to update the information.
+
+    If you want to delete the campaign, click **Delete** |delete| on the function bar. You CANNOT delete the campaign that has leads.
+
+.. |edit| image:: _static/images/edit.png 
+    :width: 40pt
+    
+.. |delete| image:: _static/images/delete.png
+    :width: 40pt
+
+Step 3: Input values into the fields
+
+.. image:: _static/images/newcampaignfield.png
+    :width: 400pt 
+
+.. note:: * Code*, Name*: required fields, you should unify the code & name and make sure everyone understand it the same way.
+
+    * Budget: fill in your planned budget for this campaign (VND)
+
+    * Start Date*: required field, select the day your campaign start
+
+    * End Date*: required field, select the day your campaign end
+
+    * Center: select the centers you want to run this campaign
+
+    * Type*: required field, select **School** if you want to run this campaign by School **OR** select **Telemarketing** if you want to run this campaign by Telemarketing.
+
+    * Status*: required field, select status for your campaign as **Planning**, **Ready**, **InProgress**, or **Finnish** *(you cannot import leads to Campaigns with Status as "Finish")*
+    
+.. tip:: Name your Marketing Campaign:
+
+    * Campaign for Telemarketing: type in name & code as **HCM_TMK_201905_[SourceName]**, example: **HCM_TMK_201905_Webtretho**; select **Type** "Telemarketing".
+    
+    * Campaign for Center: type in name & code as **HCM_MKT_201905_[SourceName]**, example: **HCM_MKT_201905_DigitalA**; select **Type** "School".
+    
+    * Campaign for Local: type in name & code as **HCM_Local_201905_[SourceName]**, example: **HCM_Local_201905_M03-Activation**; select **Type** "School"
+
+    If you don't want Sale Person in your organization to import leads to particular Campaigns, change their status to **Finish**.
+    
+Step 4: Click **Update**
+
+2. **Import leads into a Campaign**
+############################################################################
+
+Step 1: Access **Marketing > Import Lead** on Menubar
+
+Step 2: Download **Template SP_AddLeadList** to import lead
+
+.. note:: Template **SP_AddLeadList** looks like
+    
+    .. image:: _static/images/sp_addleadlist.png
+        :width: 400pt
+        
+    *Please note the instructions in the template for each field below (Step 3)*
+
+Step 3: Input values into the template fields as instructed
+
+.. warning:: DO NOT delete rows 1 - 5, OR ANY Collumns, OR change the format in the template.
+
+.. note:: * Student: input student name if know, if do not know input **noname-yyyy-mmdd-01** for example: **noname-2019-0510-01**
+
+    * Phone: input phone number (must be 10 digits, no space, no special characters) for example: 0123456789
+    
+    * Contact Name: input parent's name (if do not know parent's name: input "noname"
+    
+    * SOF: input Source of Information of Leads *(example: Banner ad, billboard, Email, etc.)*
+    
+    * Division: input Division Code (Center Code) named as "MaCN" in the template (example: D3.ASP = 110, D3.MB = 111, etc.)
+    
+    * AO: input Account Owner created in the system (must be Managers / Supervisors level)
+    
+    * Gender: 1 = Male, 0 = Female (if not defined, must input all as 1 or 0)
+    
+Step 4: Select **Marketing Campaign** that you created before in **Marketing/Import Lead**
+
+.. image:: _static/images/sp_addleadlist.png
+    :width: 400pt
+
+.. seealso:: `Create a Marketing Campaign? <./csfdoc.html#create-a-marketing-campaign>`_
+
+Step 5: Upload **SP_AddLeadList** Template
+
+.. image:: _static/images/uploadleadlist.png
+    :width: 400pt
+
+.. |browse| image:: _static/images/browse.png
+    :width: 40pt
+        
+.. note:: you can select the Template file by clicking **Browse** |browse| or drag and drop the Template file from your computer onto the **Upload File Area**
+
+Step 6: Click **Submit** to complete uploading process
+
+.. warning:: While uploading, DO NOT CLOSE CSF APPLICATION under any circumstances. Although upload process still run, **Lead Import Results** will not be sent to User.
+
+Step 7: Check **Lead Import Results**
+
+After the uploading process is complete, the result will be sent to the user as **LeadImport** Template which looks like
+
+.. image:: _static/images/leadimport.png
+    :width: 400pt
+    
+.. note:: the result will show you which leads are imported successfully, which leads are failed to import and why, please expand the rows in the **LeadImport** Template to see the details.
+
+Step 8: Check **Imported Leads** in **Marketing > Warehouse**  
+
+.. image:: _static/images/warehouse.png
+    :width: 400pt
+
+.. note:: Select **Source** = "DATA", **Created** = "Days-you-want-to-view"
+
+
+3. **Assign leads to TMK / ADMISSION**
+##################################################################################
+
+Step 1: Access **Marketing > Warehouse** on Menubar
+
+Step 2: Filter **Source** = "DATA", **Created** = "Days-you-want-to-view", then click **Search** |search|
+
+.. |search| image:: _static/images/search.png
+    :width: 60pt
+
+Step 3: Tick in the box to select Leads or the whole Campaign to assign, then click **Active** |active|
+
+.. |active| image:: _static/images/active.png
+    :width: 40pt
+
+.. note:: Division & AO information were input in the template **SP_AddLeadList** already, so you just need to select leads you want to assign and click |active|. 
+
+    To select leads you can:
+    
+    * select ONE Lead by ticking the box of the lead on the grid view
+    
+    * select ALL Leads in the campaign by ticking the box of the campaign
+    
+    * select SOME Leads in the campaign by ticking SOME boxes OR use the Mouse & Key board Combination (Left Mouse Click First Lead, then Shift + Left Mouse Click Last Lead)
+
+4. **Check Marketing Campaign Operation Progress**
+######################################################################################
+
+Step 1: Access **Marketing > Campaign List** on the Menubar
+
+Step 2: Filter the Campaign or any Category that you want to view on the grid
+
+.. note:: On grid you will see:
+
+    .. image:: _static/images/campaignprogress.png
+        :width: 400pt
+    
+    * Name: Name of Marketing Campaign that you created
+    
+    * Start Date: Start Date of the corresponding Marketing Campaign
+    
+    * End Date: End Date of the corresponding Marketing Campaign
+    
+    * Type: Telemarketing or School that you selected when create Marketing Campaign
+    
+    * Status: Current Status that you select when create Marketing Campaign
+    
+    * Budget: Planned budget that you prepare when create Marketing Campaign
+    
+    * Total: Total Leads that you import into the Campaign
+    
+    * Lead: Total Leads that you have not assign to TMK / Admission
+    
+    * Coupon: Total Leads that currently stay in the stage **COUPON**
+    
+    * App: Total Leads that currently stay in the stage **APPOINTMENT**
+    
+    * Visit: Total Leads that currently stay in the stage **VISIT**
+    
+    * Person in charge: the person who created the Marketing Campaign
+    
+    * Date Update: the date when user creates the Marketing Campaign
+    
+5. **Check Marketing Campaign Operation Details**
+#################################################################################
+
+Step 1: Access **Marketing > Warehouse** on the Menubar
+
+Step 2: Filter **Source** = "ALL", **Created** = "Days-you-want-to-view", click **Search** |Search|
+
+Step 3: **Drag and Drop** the Collumn Header to the are that you want to group
+
+.. image:: _static/images/campaigngroup.png
+    :width: 400pt
+
+.. note:: depend on your personal wish to view which data, there are plenty of ways for you to group and filter data 
+
+    .. image:: _static/images/campaigngroupsample.png
+        :width: 400pt
+
+.. seealso:: `Grid Manipulation`_
+
+**Telemarketing**
+#############################
+
+1. **Assign New COUPONS received from Marketing**
+##################################################################################
+
+Step 1: Access **Telemarketing > Coupon Assigning** on the Menubar
+
+Step 2: Filter **Source** = "CREATED", **Created** = "Days-you-want-to-view", click **Search** |Search|
+
+Step 3: Filter Campaigns you want to Assign (in case there are two many campaigns appear on the grid)
+
+.. image:: _static/images/campaignfilter.png
+    :width: 400pt
+
+Step 4: Select Leads you want to assign from the filtered Campaign from Step 3
+
+.. image:: _static/images/selectlead.png
+    :width: 100pt
+
+.. warning:: You MUST check total number of coupons you selected before you assign to make sure you are assigning correctly.
+    
+    .. image:: _static/images/chosencoupon.png
+        :width: 400pt
+
+
+Step 5: Click **Assign** |assign|
+
+.. |assign| image:: _static/images/assign.png
+    :width: 40pt
+
+Step 6: Type in usernames that you want to assign to in the pop-up window
+
+.. image:: _static/images/assignpopup.png
+    :width: 200pt
+
+Step 7: Check the list of usernames you want to assign, the number of leads for each username, then click **OK**
+
+
+.. image:: _static/images/assignusername.png
+    :width: 200pt
+
+.. note:: *The number of leads will be equally divided among selected usernames.*
+
+    For example: if there are 301 leads, and you want to assign to 3 usernames that you select in order "A", "B', "C",. respectively:
+    
+    * "A" will automatically get 100 leads
+    
+    * "B" will automatically get 100 leads
+    
+    * "C" will automatically get 101 leads
+    
+    When you complete assigning New Coupons to users, Lead Status will be updated from **"Created"** to **"Started"**, at this point on, your staff can view these leads on their list and start calling.
+
+2. **Reassign Leads** 
+################################################################
+
+Step 1: Access **Telemarketing > Coupon Assigning** on the Menubar
+
+Step 2: Filter **Source** = "ASSIGNED", **Created** ="Days-you-want-to-view", click **Search** |Search|
+
+Step 3: Reassign Leads by repeating the same steps as Step 3 - 7 in `ASSIGN NEW COUPONS`_ 
+
+.. note:: When you REASSIGN Leads, Lead **Status** is updated as follow:
+
+    * COUPON: Status is updated to "Started"
+    
+    * APPOINTMENT: Status is still the same (example: if Lead A Status is "Callback", when you reassign, its Status is still "Callback".
+    
+    * VISIT, CONTRACT: Cannot reassign
+    
+3. **Check Lead Status in Telemarketing**
+################################################################
+
+Step 1: Access **Telemarketing > Coupon Assigning** on the Menubar
+
+Step 2: Filter **Source** = "ALL", **Created** ="Days-you-want-to-view", click **Search** |Search|
+
+Step 3: Group Category and Filter STAGES and Status you want to view
+
+.. image:: _static/images/checkleadstatustmk.png
+    :width: 400pt
+    
+4. **Create a New Lead**
+################################################################
+
+Step 1: Access **Telemarketing > Coupon Assigning** on the Menubar
+
+Step 2: Click **New Coupon** |newcoupon|
+
+.. |newcoupon| image:: _static/images/newcoupon.png
+    :width: 40pt
+    
+Step 3: Input values into fields in the pop-up window (* *: required field)*
+
+.. image:: _static/images/newcouponpopup.png
+    :width: 400pt
+    
+.. |verifyexist| image:: _static/images/verifyexist.png
+    :width: 200pt
+
+.. |verifynotexist| image:: _static/images/verifynotexist.png
+    :width: 200pt
+
+.. note:: The button **Verify** is to check if Lead exist in system or not. You can only create new coupon if lead does not exist in the system.
+
+    * Exist: Phone field will appear in **Yellow** |verifyexist|
+    
+    * Not Exist: Phone field will appear in **Green** |verifynotexist|
+    
+    Depend on the SOF of New Lead, you need to select correct SOF and Campaign (Calling, facebook, etc.)
+    
+Step 4: Click **Update**
+ 
+5. **Call, Record Call History and Set Next Action for Leads**
+####################################################################################################
+
+Use Case 1: Call Recently Assigned Leads
+####################################################################################################
+
+Step 1: Access **Telemarketing > Coupon Calling** on the Menubar
+
+Step 2: Filter **Source** = "STARTED", **Created Date** |createddate|, **From - To** = "Days-Leads-are-created", click **Search** |search| 
+
+.. tip:: Coupon Calling is designed to best support telemarketing users to perform their daily calling tasks:
+
+    * Filter Source="STARTED", select *Created Date, From-To: in order to call recently assigned leads
+    
+    * Filter Source="ALL", select "Next Scheduler", From-To: in order to call leads that you planned to call on specific dates
+
+Step 3: Select Leads to call *(One Lead, Some Leads, or ALL Leads)*, click **Call** |call|
+
+You will see this screen:
+
+.. image:: _static/images/callwindow.png
+    :width: 400pt
+
+.. |call| image:: _static/images/call.png
+    :width: 40pt
+
+* Total: Total Leads you selected to **Call**
+
+.. image:: _static/images/totalcall.png
+    :width: 100pt
+    
+* Current: The order number of Current Lead you are Calling
+
+.. image:: _static/images/currentcall.png
+    :width: 100pt
+    
+* Time: The duration of your Call for Current Lead
+
+.. image:: _static/images/timecall.png
+    :width: 100pt
+    
+* Lead Detail:
+
+.. image:: _static/images/leadcalldetail.png
+    :width: 100pt
+
+.. note:: You can edit and save changes for lead detail including:
+
+    * Name: Student Name
+    
+    * Birthday: Student Birthday
+    
+    * Sex: Male / Female
+    
+    * Contact: Contact's Name *(Father's name, Mother's Name, Grandfher's Name, etc.)*
+    
+    * Phone: Main Contact Phone Number
+    
+    * Phone 2: Second Contact Phone Number
+    
+    * Address: Contact Address
+    
+    * Email: Contact Email
+    
+    * Notes: Student Related Notes, not Call Notes *(example: student is young, shy, needs more attention, etc.)*
+    
+    * Stage Stage of Lead (LEAD / COUPON / APPOINTMENT / VISIT / CONTRACT)
+    
+    You **cannot** edit **Phone** & **Stage** of Lead Detail.
+    
+* Call Log:
+
+.. image:: _static/images/calllog.png
+    :width: 200pt
+    
+* Call History:
+
+.. image:: _static/images/callhistory.png
+    :width: 200pt
+    
+.. note:: When you click |call|, 3CX Software will automatically start to call the selected Leads. *(please contact IT in your organization if 3CX software does not work)*
+
+    3CX looks like this:
+    
+    .. image:: _static/images/3cx.png
+        :width: 100pt
+
+Step 4: Record Call History and Set Next Action for Leads
+
+* Callback:
+
+    .. image:: _static/images/callback.png
+        :width: 400pt
+    
+    * Reason: select suitable reason for Callback (Not Answer, Busy, Consider, Interested, Not Interested)
+    
+    * Potential Level: evaluate customer potential level (Hot, Warm, Cold)
+    
+    * Program: select School Program that Parents want to enroll their students in 
+    
+    * Note: type in current Call notes
+    
+    * Schedule: select Next Care Plan to Callback
+    
+* Meeting:
+
+    .. image:: _static/images/meeting.png
+        :width: 400pt
+    
+    * Meeting on: select the date you book meeting with parents
+    
+    * Meeting to: select the location you book meeting with parents
+    
+    * Potential Level: evaluate customer potential level (Hot, Warm, Cold)
+
+    * Program: select School Program that Parents want to enroll their students in 
+    
+    * Note: type in current Call notes
+
+    * Schedule: Next Care Plan will be automatically set as Meeting on
+    
+* Useless: 
+
+    .. image:: _static/images/useless.png
+        :width: 400pt
+        
+    * Reason: select suitable reason for Useless (Wrong Age, Wrong Location, Wrong Number)
+    
+* Transfer:
+
+    .. image:: _static/images/transfer.png
+        :width: 400pt
+
+    * Reason: select reason "Transfer Center"
+    
+    * Center: select Center you want to transfer to
+    
+    * Potential Level: evaluate customer potential level (Hot, Warm, Cold)
+
+    * Program: select School Program that Parents want to enroll their students in 
+    
+    * Note: type in current Call notes
+    
+    * Schedule: select Next Care Plan to Callback
+
+Step 5: Click **Save** |savecall|
+
+.. |savecall| image:: _static/images/savecall.png
+    :width: 40pt
+    
+.. note:: If you are calling a list of Leads, you should wait for customer to end the call first, then click |savecall|. Because the call will end and automatically start next call in the list when you click |savecall|.
+
+
+6. **Send SMS Message to Leads from Telemarketing**
+####################################################################################################
+
+Step 1: Access **Telemarketing > Coupon Calling** on the Menubar
+
+Step 2: Filter **Source** = "ALL", **Created Date**, **From - To** = "Days-Leads-are-created", click **Search** |search|
+
+Step 3: Select ONE Lead you want to text SMS to, Right-mouse-click, click **SMS** |sms|
+
+.. |sms| image:: _static/images/sms.png
+    :width: 40pt
+
+.. image:: _static/images/smscouponcalling.png
+    :width: 400pt
+
+Step 4: Select SMS Brandname, Send to (Phone Number), SMS Template, Type in Message, Select Potential Level
+
+.. image:: _static/images/smspopup.png
+    :width: 200pt
+
+Step 5: Click **Send** |send|
+
+.. |send| image:: _static/images/send.png
+    :width: 40pt
+
+.. note:: There will be a message box to inform if SMS Message **Fails to send** OR send **Successfully**.
+    
+Step 6: Check SMS Sending Status History **Successfully** or **Failed**
+
+.. image:: _static/images/smsstatus.png
+    :width: 400pt
+
+7. **Check Summary Sale Performance**
+####################################################################################################
+
+Step 1: Access **Telemarketing > Sale Performance** on the Menubar
+
+Step 2: Filter Data View by "Day" / "Week" / "Month" / "From-To", Click **Search** |search|
+
+What you see:
+
+.. image:: _static/images/saleperformance.png
+    :width: 400pt
+    
+.. |expand| image:: _static/images/expand.png
+    :width: 15pt
+
+.. note:: Understand the Summary Sale Performance as follow:
+
+    * User: Username of sale representative in system
+    
+    * Full Name: Full Name of User
+    
+    * User Center: Centers of User
+    
+    * Call: Total Calls that User Called and Saved *(including calling & booking appointment)*
+    
+    * Appointment: Total Appointments that User Booked and Saved
+    
+    * Appointment.Come: Total Come from Appointments that user Confirmed and Saved
+    
+    * Visit: Total Walk-in that user Confirmed and Saved *(not from Appointments)*
+
+    * Contract: Total Contracts User Converted
+
+    If you want to see detail of one user, click **expand** |expand| to see history details:
+    
+    .. image:: _static/images/saleperformancedetail.png
+        :width: 400pt
+        
+    
+8. **Track Lead Activities**
+
+Step 1: Access **Telemarketing > Lead Activity Tracker** on the Menubar
+
+Step 2: Filter Data View by **Day / Week" / Month / From-To**, Click **Search** |search|
+
+For example: the context: today is 13/05/2019, your username is "annth_csv", you want to see every activities that you did today, you filter data view by "Day" = Today(), click **Search**, 
+
+What you see: 
+
+.. image:: _static/images/leadactivitytracker.png
+    :width: 400pt
+
+**Admission**
+#############################
+
+1. **Check Appointments information at School**
+####################################################################
+
+Step 1: Access **Admission > Appointments** on the Menubar
+
+Step 2: Filter **Appointment** = "Days-you-want-to-view", click **Search** |search|
+
+What you see:
+
+.. image:: _static/images/appointmentscreen.png
+    :width: 400pt
+
+for example: 
+
+.. raw:: html
+    
+    <font color="purple">On 13/05/2019, there are total 26 appointments</font> at <font color="Green">Center in District 11 [Meeting at Collumn]</font>, booked by <font color="Red">Whom [AO]</font>, <font color="Orange">Confirmed Come</font> by <font color="Blue">Whom [Follow]</font>
+
+besides, you will see other information such as: Meeting Time, Student Name, Contact Name, Phone, Meeting Notes, Action Comments, etc.
+
+2. **Call Confirm Appointment**
+###########################################################################################
+
+Step 1: Access **Admission > Appointments** on the Menubar
+
+Step 2: Filter **Appointment** = "Days-you-want-to-view", click **Search** |search|
+
+Step 3: Select ONE Lead you want to call confirm, click **Call** |call|
+
+Step 4: Input Call Note in the pop-up call window, then click **Save** |save|
+
+.. image:: _static/images/callconfirm.png
+    :width: 200pt
+
+3. **Confirm Come / Not Come for Appointment at School**
+###########################################################################################
+
+Step 1: Access **Admission > Appointments** on the Menubar
+
+Step 2: Filter **Appointment** = "Days-you-want-to-view", click **Search** |search|
+
+Step 3: Select ONE Lead you want to confirm Come / Not Come, click **Come** |come| or **Not Come** |notcome|
+
+.. |come| image:: _static/images/come.png
+    :width: 40pt
+    
+.. |notcome| image:: _static/images/notcome.png
+    :width: 40pt
+
+Step 4: Input **Confirm Note**, select **Potential Level**, then click **Save** |save|
+
+When you confirm **Come** |come|, you will see:
+
+.. image:: _static/images/confirmcome.png
+    :width: 400pt
+
+When you confirm **Not Come** |notcome|, you will see:
+
+.. image:: _static/images/confirmnotcome.png
+    :width: 400pt
+    
+.. note:: The person who click confirm **Come** |come| will be the one who follow the lead at school [VISIT > CONTRACT]. If you want someone else to follow the lead, please use function **Refollow** in **Lead List**.
+    
+    When click confirm **Not Come** |notcome|, only Appointment Status is updated to **NotCome**
+    
+.. warning:: Users with this role MUST confirm **Come** or **Not Come** **within the day of the appointment**.
+
+4. **Send SMS Message to Lead in Appointments**
+####################################################################
+
+Step 1: Access **Admission > Appointments** on the Menubar
+
+Step 2: Filter **Appointment** = "Days-you-want-to-view", click **Search** |search|
+
+Step 3: Select ONE Lead you want to send SMS to, then click **SMS** |sms| on the Menubar
+
+.. image:: _static/images/smsappointment.png
+    :width: 400pt
+    
+Step 4: Select **Brandname, Phone, Template**, input **Message**, select **Potential level**
+
+.. image:: _static/images/smspopup.png
+    :width: 200pt
+    
+Step 5: Click **Send** |send|
+
+.. note:: There will be a message box to inform if SMS Message **Fails to send** OR send **Successfully**.
+    
+Step 6 (Optional): Check SMS Sending Status History **Successfully** or **Failed**
+
+.. image:: _static/images/smsstatus.png
+    :width: 400pt
+
+5. **Create a New Appointment after confirm Not Come**
+####################################################################
+
+After you confirm **Not Come** |notcome| and input confirm notes, you want to book another appointment, please do:
+
+Step 1: Select the Lead you just confirmed **Not Come** |notcome|.
+
+Step 2: Click **New Appointment** |newappointment| on the Menubar
+
+.. |newappointment| image:: _static/images/newappointment.png
+    :width: 60pt
+    
+Step 3: Select **Schedule [Time], Meeting to [Location]**, input **Note**, select **Potential Level** for next appointment on the pop-up window, then click **Save** |save|
+
+6. **Check current VISIT and CONTRACT at School**
+####################################################################
+
+Step 1: Access **Admission > Lead List** on the Menubar
+
+Step 2: Filter **Created Date - To** = "Leads-Created-From-Date-To-Date", then click **Search** |search|
+
+.. image:: _static/images/leadlistfilter.png
+    :width:
+    
+Step 3: Group collumn you want to see
+
+for example: I want to see how many customer still stay at STAGE VISIT and their potential levels
+    
+.. image:: _static/images/leadlist.png
+    :width: 400pt
+
+7. **Create a New Visit at school**
+####################################################################
+
+Step 1: Access **Admission > Lead List** on the Menubar
+
+Step 2: Click **New Visit** |newvisit|
+
+.. |newvisit| image:: _static/images/newvisit.png
+    :width: 40pt
+    
+Step 3: Input values into fields in the pop-up window (* *: required field)*
+
+.. image:: _static/images/newvisitpopup.png
+    :width: 400pt
+    
+.. |verifyexist| image:: _static/images/verifyexist.png
+    :width: 200pt
+
+.. |verifynotexist| image:: _static/images/verifynotexist.png
+    :width: 200pt
+
+.. note:: The button **Verify** is to check if Lead exist in system or not. You can only create new coupon if lead does not exist in the system.
+
+    * Exist: Phone field will appear in **Yellow** |verifyexist|
+    
+    * Not Exist: Phone field will appear in **Green** |verifynotexist|
+    
+    Depend on the SOF of New Lead, you need to select correct SOF and Campaign (Facebook, Website, etc.)
+    
+Step 4: Click **Update**
+
+8. **Refollow a Lead**
+####################################################################
+
+Step 1: Access **Admission > Lead List** on the Menubar
+
+Step 2: Filter **Created** ="Days-Leads-Created", click **Search** |Search|
+
+Step 3: Select a Lead to refollw, then click **Refollow** |refollow|
+
+.. |refollow| image:: _static/images/refollow.png
+    :width: 60pt
+    
+.. image:: _static/images/refollowview.png
+    :width: 400pt
+
+Step 4: Select **Follow User**
+
+Step 5: Click **Update**
+
+8. **Follow Up personal Leads**
+####################################################################
+
+Use Case 1: Follow Next Scheduler
+####################################################################
+
+Step 1: Access **Admission > Follow-Up** on the Menubar
+
+Step 2: Select **Next Scheduler**, filter **From-To** = "Days-next-scheduler", then click **Search** |search|
+
+.. tip:: if you want to check which leads you need to call today, select **Next Scheduler**, filter **From-To** = **Today**, click |search|. Check the information on the grid to decide which leads to call.
+
+Step 3: Select **Call** |call| to `Call, Record Call History and Set Next Action for Leads`_
+
+Step 4: Click **Save** |savecall|
+
+.. |savecall| image:: _static/images/savecall.png
+    :width: 40pt
+    
+.. note:: You should wait for customer to end the call first, then click |savecall|. Because the call will end and automatically start next call in the list when you click |savecall|.
+
+Use Case 2: Follow a Lead on special purpose
+####################################################################
+
+Step 1: Access **Admission > Follow-Up** on the Menubar
+
+Step 2: Select **Created Date**, filter **From-To** = "Days-Leads-Created", then click **Search** |search|
+
+Step 3: Select **Call** |call| to `Call, Record Call History and Set Next Action for Leads`_
+
+Step 4: Click **Save** |savecall|
+
+.. |savecall| image:: _static/images/savecall.png
+    :width: 40pt
+    
+.. note:: If you are calling a list of leads, you should wait for customer to end the call first, then click |savecall|. Because the call will end and automatically start next call in the list when you click |savecall|.
+
+
+
+
+**Classes**
+#############################
+
+1. **Check Class Schedules at School**
+####################################################################
+
+Step 1: Access **Classes > Class Scheduler** on the Menubar
+
+Step 2: Select **Center** and **Program** you want to check Class Schedules, click **Search** |search2|
+
+.. |search2| image:: _static/images/search2.png
+    :width: 60pt
+    
+.. image:: _static/images/classschedulefilter.png
+    :width: 400pt
+
+.. note:: Class Scheduler Date Range is set 3 months as default (Previous Month + Current Month + Next Month). If you want to change Date range, expand **Advance Filter** and select Date Range as you want.
+
+    .. image:: _static/images/classscheduledaterange.png
+        :width: 400pt
+
+Step 3: Check Class Schedules
+
+.. image:: _static/images/classschedule.png
+    :width: 400pt
+    
+.. note:: Program Color Code:
+
+    .. image:: _static/images/programcolorcode.png
+        :width: 400pt
+        
+    Class Status Color Code:
+    
+    .. image:: _static/images/classstatuscolorcode.png
+        :width: 400pt
+        
+.. tip:: Class Scheduler Description:
+
+    Date Filter:
+    
+    .. image:: _static/images/schedulefilterdate.png
+        :width: 200pt
+        
+    View Filter:
+    
+    .. image:: _static/images/classscheduleviewfilter.png
+        :width: 400pt
+        
+    Class Room Filter:
+    
+    .. image:: _static/images/classroomfilter.png
+        :width: 400pt
+
+    Class Block Description:
+    
+    .. image:: _static/images/classblockdescription.png
+        :width: 400pt
+    
+2. **Search Class**
+####################################################################
+
+Step 1: Access **Classes > Class List** on the Menubar
+
+Step 2: Filter **Start Date - To** = "Date-Class-Start-From-To", then click **Search** |search2|
+
+.. image:: _static/images/classlist.png
+    :width: 400pt
+    
+Step 3: Type in Class Name you want to search, for example: *type in "2B-1807"*
+
+.. image:: _static/images/searchclasslist.png
+    :width: 400pt
+
+.. tip:: You can search any value you want to in the serch box.
+
+3. **Check Class Detail**
+####################################################################
+
+Step 1: `Search Class`_
+
+Step 2: Click **Class ID** in Class List Results
+
+Step 3: Check Class Detail
+
+4. **Assign Teacher in Class**
+####################################################################
+
+Step 1: `Search Class`_
+
+Step 2: Click **Assign Teacher** |assignteacher|
+
+.. |assignteacher| image:: _static/images/assignteacher.png
+    :width: 30pt
+
+You will see Assign Teacher window:
+
+.. image:: _static/images/assignteacherwindow.png
+    :width: 400pt
+
+Step 3: Click **Add** |addteacher| if you want to add Main Teacher and Main Assistant Teacher in class
+
+.. |addteacher| image:: _static/images/addteacher.png
+    :width: 40pt
+    
+Step 4: In **Add Teacher** pop-up window, search **Teacher Name** in search box, check **Teacher Info**, then click **Add** |add|
+
+.. |add| image:: _static/images/add.png
+    :width: 30pt
+    
+.. image:: _static/images/addteacherpopup.png
+    :width: 400pt
+
+.. note:: System will check Teacher Availabilty when you click **Add** |addteacher| or **Cover** |coverteacher|. If you don't see the teacher you are looking for, it means the teacher is busy with the class schedule you are working on.
+
+Step 5: In **Enrollment Information**, input fields including:
+
+* Is Assisstant Teacher:
+
+.. image:: _static/images/ista.png
+    :width: 150pt
+    
+.. note:: Tick this box if teacher is Assistant Teacher. If teacher is Main Teacher, don't tick.
+
+* Extra Rate:
+
+.. image:: _static/images/extrahour.png
+    :width: 150pt
+    
+.. note:: Type in values (hours: 0.5, 1, 1.5, 2, etc.) depend on each Teacher Extra Hour Rate in Class.
+
+* Choose Lessons:
+
+.. image:: _static/images/chooselesson.png
+    :width: 400pt
+    
+.. tip:: You can filter lessons to select quickly. For example: Class Schedule is on Saturday & Sunday (48 lessons), the teacher only teaches 24 lessons on every Saturday, you can quickly select as below:
+
+    .. image:: _static/images/filterteacherlesson.png
+        :width: 400pt
+        
+    Then check Total Lessons chosen for teacher, you will see there are 24 lesons (on Saturdays)
+    
+    .. image:: _static/images/checkteacherlesson.png
+        :width: 400pt
+
+Step 6: Click **OK**
+
+Step 7: Check **Teacher In Class** result
+
+.. image:: _static/images/assignteacherresult.png
+    :width: 400pt
+    
+.. note:: Teacher in Class | Color Code Definition
+    
+    .. image:: _static/images/teacherinclassdefinition.png
+        :width: 300pt
+        
+    * Notin: Teacher is **NOT IN** class on that day
+    
+    * In: Teacher is **IN** class on that day
+    
+    * Cover: Teacher covers in class on that day
+    
+    * BeCovered: Teacher is covered in class on that day
+
+.. note:: If you want to assign Teacher to **COVER** in Class, please follow these steps:
+
+    Step 1: `Search Class`_
+    
+    Step 2: Click **Assign Teacher** |assignteacher|
+
+    .. |assignteacher| image:: _static/images/assignteacher.png
+        :width: 30pt
+
+    You will see Assign Teacher window:
+
+    .. image:: _static/images/assignteacherwindow.png
+        :width: 400pt
+
+    Step 3: Click **COVER** |coverteacher|
+
+    .. |coverteacher| image:: _static/images/coverteacher.png
+        :width: 40pt
+        
+    Step 4: Search Cover Teacher in the search box
+    
+    .. image:: _static/images/searchcoverteacher.png
+        :width: 400pt
+        
+    Step 5: Click **Assign Teacher** |assignteacher|
+    
+    Step 6: In **Add Cover Teacher** pop-up window, select Teacher to be Covered
+    
+    .. image:: _static/images/selectteachercover.png
+        :width: 400pt
+        
+    Step 7: Input values in the fields in **Add Cover Teacher** as you want to apply for the Cover Teacher
+    
+    .. image:: _static/images/inputcoverteacher.png
+        :width: 400pt
+        
+    Step 8: Click **OK**
+    
+    Step 9: Check Add Cover Teacher Results
+    
+    .. image:: _static/images/coverteacherresult.png
+        :width: 400pt
+        
+5. **Edit Teacher in Class**
+####################################################################
+
+Step 1: `Search Class`_
+
+Step 2: Click **Assign Teacher** |assignteacher|
+
+.. |assignteacher| image:: _static/images/assignteacher.png
+    :width: 30pt
+    
+Step 3: In the **Assign Teacher** window, click **Edit** |editteacher|
+
+.. |editteacher| image:: _static/images/editteacher.png
+    :width: 30pt
+
+.. image:: _static/images/assignteacherwindow.png
+    :width: 400pt
+    
+Step 4: Find and select information you want to edit, click **Edit** |editteacher|
+
+Step 5: Input changes and click **Save Icon** (you can edit Teacher Extra Rate, and Is Assistant only)
+
+.. image:: _static/images/editteacherinclass.png
+    :width: 400pt
+    
+6. **Delete Teacher in Class**
+####################################################################
+
+Step 1: `Search Class`_
+
+Step 2: Click **Assign Teacher** |assignteacher|
+
+.. image:: _static/images/assignteacherwindow.png
+    :width: 400pt
+    
+Step 3: In the **Assign Teacher** window, find and select teacher you want to delete, click **Delete** |deleteteacher|
+
+.. |deleteteacher| image:: _static/images/deleteteacher.png
+    :width: 30pt
+
+.. warning:: If the Teacher is Covered by another teacher, you must delete Cover Teacher first, then delete the Teacher.
+
+7. **Delete Lessons of Teacher in Class**
+####################################################################
+
+Step 1: `Search Class`_
+
+Step 2: Click **Assign Teacher** |assignteacher|
+
+.. image:: _static/images/assignteacherwindow.png
+    :width: 400pt
+    
+Step 3: In the **Assign Teacher** window, find and select teacher you want to delete lessons, click **Edit** |editteacher|
+
+Step 4: In the **Edit Teacher** pop-up window, click **Delete Icon** on the lessons you want to delete.
+
+.. image:: _static/images/deleteteacherlesson.png
+    :width: 400pt
+    
+.. tip:: You can open Class Detail from Assign Teacher Window by clicking **Class Name**
+
+    .. image:: _static/images/linkclassdetail.png
+        :width: 400pt
+
+
+    
+    
+**Teachers**
+#############################
+
+1. **Search Teacher in Teacher List**
+####################################################################
+
+Step 1: Access **Teachers > Teacher List** on the Menubar
+
+Step 2: In the **Teacher List** window, type **Teacher Name** or **Teacher Code** in the search box to search
+
+.. image:: _static/images/searchteacherlist.png
+    :width: 400pt
+
+Step 3: Click **Details** to see Teacher Details
+
+.. note:: Teacher list is grouped by **Main Center** (The center where the teacher belong to in terms of management).
+
+2. **Edit Teacher Details**
+####################################################################
+
+Step 1: `Search Teacher`_
+
+Step 2: Click **Details** to see Teacher Details
+
+.. image:: _static/images/openteacherdetail.png
+    :width: 400pt
+
+Step 3: Input values into fields you want to update, then click **Save** |save2|
+
+.. |save2| image:: _static/images/save2.png
+    :width: 40pt
+    
+.. image:: _static/images/teacherdetail.png
+    :width: 400pt  
+    
+.. note:: Difference between **Main Center** and **Teacher Location**:
+
+    A Teacher belongs to **ONE Main Center**, but can teach at **MANY Teaching Location**.
+
+3. **Check Teacher Total Hours**
+####################################################################
+
+Step 1: Access **Teachers > Teaching Hours** on the Menubar
+
+Step 2: Select **Center** = "Main Center", **Program**, **Salary Month**, then Click **Search** |search2|
+
+.. note:: **Salary Month** Range is defined by the Organization.
+
+Step 3: Check **Teacher Teaching Hours Results**
+
+.. image:: _static/images/teachinghourresult.png
+    :width: 400pt
+    
+.. note:: Teacher is grouped by Role. If One Teacher plays TWO Roles (**Teacher** labeled as **TC** and **Assistant Teacher** labeled as **TA**), there will be TWO Rows summarizing teacher's teaching hours.
+
+    Collumn Name Definition:
+    
+    * Role: Teacher Roles in Class (TC or TA)
+    
+    * Teacher: Teacher Name in system
+    
+    * Actual Hour: Total class hours of the teacher
+    
+    * Extra Hour: Extra Rate of the Teacher added to Actual Hour
+    
+    * Total Hour: Hours of teacher which will be taken to calculate Teacher Salary (Actual Hour + Extra Hour)
+    
+    * PT: Placement Test Hours of the Teacher
+    
+    * DC: Demo Class Hours of the Teacher
+    
+    * CH: Cambridge House Hours of the Teacher
+    
+    * EC: English Club Hours of the Teacher
+    
+    * Support: Support Hours of Teacher (events, other classes, etc.)
+    
+    * Parketing: parking tickets to be settled by payment back to the Teacher
+    
+    * Send?: Check if Teacher Hours Summary is sent to Teacher or not
+
+4. **Check Status of Total Hours**
+####################################################################
+
+Step 1: `Check Teacher Total Hours`_
+
+Step 2: Check Status of Total Hours Summary
+
+.. image:: _static/images/totalhourstatus.png
+    :width: 400pt
+    
+.. |rejectsummary| image:: _static/images/rejectsummary.png
+    :width: 45pt
+    
+.. |submitsummary| image:: _static/images/submitsummary.png
+    :width: 45pt
+        
+.. |approvesummary| image:: _static/images/approvesummary.png
+    :width: 45pt
+
+.. |locksummary| image:: _static/images/locksummary.png
+    :width: 35pt 
+    
+.. note:: Flow of Total Hour Summary:
+
+    .. image:: _static/images/totalhourstatusflow.png
+        :width: 300pt
+        
+.. warning:: When the Total Hour Summary is Approved and Locked, you cannot change the Total Hours Summary.
+
+    If you want to change the Total Hour Summary, you need to **Reject** |rejectsummary| until the Status is **InProgress**. 
+    
+    After you complete editting Teacher Hours in `Assign Teacher`_ window, you can check the results and 
+    
+    **Submit** |submitsummary| > **Approve** |approvesummary| > **Lock** |locksummary| Total Hours Summary.
+    
+5. **Export Total Hours Summary**
+####################################################################
+
+Step 1: `Check Teacher Total Hours`_
+
+Step 2: Click **Export** |export2|
+
+.. |export2| image:: _static/images/export2.png
+    :width: 40pt
+ 
+Step 3: Save **Total Hour Summary** excel worksheet
+
+.. image:: _static/images/savetotalhour.png
+    :width: 400pt
+    
+Step 4: Open saved **Total Hours** in your computer and check Total Hour Summary, Total Hour Detail, Non-Teaching Hours Detail
+
+.. image:: _static/images/checkteacherhourexcel.png
+    :width: 400pt 
+
+
+6. **Send Teacher Total Hours to Teacher via e-mail**
+####################################################################
+
+Step 1: `Check Teacher Total Hours`_
+
+Step 2: Select **Teachers** you want to send email to
+
+.. image:: _static/images/sendtotalhour.png
+    :width: 400pt
+
+Step 3: Click **Send** |sendemail|
+
+.. |sendemail| image:: _static/images/sendemail.png
+    :width: 40pt
+
+Step 4: Check **Send?** column to see if email is sent or not (**Tick**: is sent, **Blank**: is NOT sent)
+
+7. **Update Non-Teaching Hours of Teacher**
+####################################################################
+
+Step 1: Access **Teachers > Non-Teaching Hours** on the Menubar
+        
+Step 2: Click **Add New** |addnew| to add Non-Teaching Hours by Types
+
+.. |addnew| image:: _static/images/addnew.png
+    :width: 40pt
+
+Step 3: Create Non-Teaching Hours Activity, in **Add New** pop-up window, select **Center** = "Teaching Location", **Program, Type, Room, Date, Start Time, End Time**, Type **Note**
+
+.. image:: _static/images/addnewpopup.png
+    :width: 400pt
+    
+Step 4: Enroll Teacher in the Non-Teaching Hours Activity
+    
+.. image:: _static/images/enrollteachernth.png
+    :width: 400pt
+    
+Step 5: Click **Update** to complete enrolling Teachers in the Activity
+
+Step 6: Check the input information, then Click **Save** |save2|
+
+Step 7: See Result on the grid by selecting **Center** = "Main Center", **Program**, **From-To**, then Click **Search** |search2|
+
+.. image:: _static/images/checknthresult.png
+    :width: 400pt
+    
+8. **Edit/Delete Non-Teaching Hours of Teacher**
+####################################################################
+
+Step 1: Access **Teachers > Non-Teaching Hours** on the Menubar
+        
+Step 2: Select **Center** = "Main Center", **Program**, **From - To** = "Salary-Month-Range"
+
+Step 3: Check Non-Teaching Hours by Type
+
+.. image:: _static/images/checknthresult.png
+    :width: 400pt
+    
+.. seealso:: `Non-Teaching Hours Types`_
+
+Step 4: Click **Edit** |editnth| or **Delete** |deletenth|
+    
+.. |editnth| image:: _static/images/editnth.png
+    :width: 30pt
+
+.. |deletenth| image:: _static/images/deletenth.png
+    :width: 30pt   
+
+.. warning: If you delete the Non-Teaching Hours Acitvity, you will delete All Teachers enrolled in the Activity.
+
+    If you want to delete SOME Teachers in the Activity, click **Edit** |editnth|, then click **Delete** in the pop-up window.
+    
+    .. image: _static/images/deleteteacherinactivity.png
+**Students**
+#############################
+
+
+
+**Live Report**
+*****************************
+
+
+1. **View Live Report**
+
+Step 1: Access http://csf-beta.citysmart.vn/ in web browser
+        
+Step 2: Log in using your username and password
+
+Step 3: Click **Live Report** |livereport| on the Homepage
+
+Step 4: Find a Report you want to view
+
+2. **Live Report View Permissions**
+
+
+**CSF Doc Revision**
+**********************************************************
+
+.. tabularcolumns:: |p{1cm}||p{1cm}||p{1cm}|p{7cm}||p{1cm}|
+
+.. csv-table:: 
+   :file: _static/file/CSFVersion.csv
+   :header-rows: 1
+   :class: longtable
+   :widths: 1 1 1 7 1
+   
+
+
+.. raw:: html
+
+    <iframe width="720" height="350" src="_static/videos/1904-CMS-Cancel-Receipt.mp4" frameborder="0" allow="accelerometer; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
