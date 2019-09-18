@@ -1,7 +1,7 @@
 {
   "name": "CSF Document",
   "short_name": "CSFDoc",
-  "start_url": "/index.html",
+  "start_url": "/CSFDOC/index.html",
   "display": "standalone",
   "background_color": "#FFE9D2",
   "theme_color": "#FFE1C4",
