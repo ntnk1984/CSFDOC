@@ -5,21 +5,21 @@ const staticCacheName = "site-static-v4";
 const dynamicCacheName = "site-dynamic-v4";
 const assets = [
   "/",
-  "/index.html",
-  "/genindex.html",
-  "/search.html",
-  "/csfdoc.html",
-  "/_static/custom.css",
-  "/_static/alabaster.css",
-  "/_static/pygments.css",
-  "/_static/jquery.js",
-  "/_static/underscore.js",
-  "/_static/doctools.js",
-  "_static/images/",
-  "/_static/materialize.min.js",
-  "/_static/styles.css",
-  "/_static/materialize.min.css",
-  "/fallback.html"
+  "/CSFDOC/index.html"
+  //   "/genindex.html",
+  //   "/search.html",
+  //   "/csfdoc.html",
+  //   "/_static/custom.css",
+  //   "/_static/alabaster.css",
+  //   "/_static/pygments.css",
+  //   "/_static/jquery.js",
+  //   "/_static/underscore.js",
+  //   "/_static/doctools.js",
+  //   "_static/images/",
+  //   "/_static/materialize.min.js",
+  //   "/_static/styles.css",
+  //   "/_static/materialize.min.css",
+  //   "/fallback.html"
 ];
 
 // cache size limit function
