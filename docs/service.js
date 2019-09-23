@@ -4,7 +4,7 @@
 const staticCacheName = "site-static-v4";
 const dynamicCacheName = "site-dynamic-v4";
 const assets = [
-  "/",
+  "/CSFDOC",
   "/CSFDOC/index.html"
   //   "/genindex.html",
   //   "/search.html",
