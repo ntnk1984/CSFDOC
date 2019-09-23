@@ -84,16 +84,16 @@ self.addEventListener("activate", async evt => {
     const response = await saveSubscription(subscription);
     console.log(response);
 
-    evt.waitUntil(
-      caches.keys().then(keys => {
-        //console.log(keys);
-        return Promise.all(
-          keys
-            .filter(key => key !== staticCacheName && key !== dynamicCacheName)
-            .map(key => caches.delete(key))
-        );
-      })
-    );
+    // evt.waitUntil(
+    //   caches.keys().then(keys => {
+    //     //console.log(keys);
+    //     return Promise.all(
+    //       keys
+    //         .filter(key => key !== staticCacheName && key !== dynamicCacheName)
+    //         .map(key => caches.delete(key))
+    //     );
+    //   })
+    // );
     //console.log(JSON.stringify(subscription))
   } catch (err) {
     console.log("Error", err);
