@@ -51,7 +51,9 @@ const saveSubscription = async subscription => {
   const response = await fetch(SERVER_URL, {
     method: "post",
     headers: {
-      "Content-Type": "application/json"
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "https://ntnk1984.github.io",
+      "Access-Control-Allow-Methods": "PUT,PATCH,DELETE"
     },
     body: JSON.stringify(subscription)
   });
