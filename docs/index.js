@@ -7,6 +7,19 @@ const check = () => {
   }
 };
 
+const urlB64ToUint8Array = base64String => {
+  const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
+  const base64 = (base64String + padding)
+    .replace(/\-/g, "+")
+    .replace(/_/g, "/");
+  const rawData = atob(base64);
+  const outputArray = new Uint8Array(rawData.length);
+  for (let i = 0; i < rawData.length; ++i) {
+    outputArray[i] = rawData.charCodeAt(i);
+  }
+  return outputArray;
+};
+
 const registerServiceWorker = async () => {
   const swRegistration = await navigator.serviceWorker.register("service.js");
   return swRegistration;
@@ -27,5 +40,15 @@ const main = async () => {
   check();
   const swRegistration = await registerServiceWorker();
   const permission = await requestNotificationPermission();
+  
+   const applicationServerKey = urlB64ToUint8Array(
+    "BBNtP1-BBsxSNX40d2jSwNJ851zKMrcvf_Jl7BYXqubbcl2SESC36AvcW-3wYZfzTbddy2hNYZvXtAe9iDgDeOU"
+  );
+  const options = { applicationServerKey, userVisibleOnly: true };
+  const subscription = await swRegistration.pushManager.subscribe(options);
+
+  const response = await saveSubscription(subscription);
+  
+  console.log(response);
 };
 // main(); we will not call main in the beginning.
