@@ -83,7 +83,7 @@ self.addEventListener("activate", async evt => {
     );
     const options = { applicationServerKey, userVisibleOnly: true };
     const subscription = await self.registration.pushManager.subscribe(options);
-    const response = await saveSubscription(subscription);
+    //const response = await saveSubscription(subscription);
     console.log(response);
 
     // evt.waitUntil(
