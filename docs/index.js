@@ -7,6 +7,21 @@ const check = () => {
   }
 };
 
+const saveSubscription = async subscription => {
+  const SERVER_URL = "https://backend-web-push.herokuapp.com/save-subscription";
+  const response = await fetch(SERVER_URL, {
+    method: "post",
+    headers: {
+      "Content-Type": "application/json",
+      "Access-Control-Allow-Origin": "https://ntnk1984.github.io",
+      "Access-Control-Allow-Methods": "PUT,PATCH,DELETE"
+    },
+    body: JSON.stringify(subscription)
+  });
+  return response.json();
+};
+
+
 const urlB64ToUint8Array = base64String => {
   const padding = "=".repeat((4 - (base64String.length % 4)) % 4);
   const base64 = (base64String + padding)
